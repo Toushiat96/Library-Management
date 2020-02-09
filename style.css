@@ -1,0 +1,242 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	width:1080px;
+	margin:0 auto;
+	max-width:100%;
+}
+.library{
+	 background:#DBF5C6;
+}
+.logo img{
+	margin-top:20px;
+}
+.src{
+	margin-top:20px;
+}
+.hadder{
+	margin-top:20px;
+	max-width:100%
+}
+.dropdown {
+  list-style: none outside none;
+  margin-top:30px;
+  padding: 0;
+}
+
+.dropdown  >li {
+  display: inline-block;
+  margin:0;
+  padding:0;
+  position:relative;
+    z-index: 1;
+}
+.dropdown  >li> a {
+  background:blue;
+  padding:8px 42.5px;
+  text-decoration: none;
+  color:white;
+}
+.dropdown >li>a:hover{
+	background:black;
+	color:white;
+}
+.dropdown  ul {
+  list-style: none outside none;
+  margin:0;
+  padding: 0;
+  position:absolute;
+  top:25px;
+  width:200px;
+  display:none;
+  background:White;
+  max-width:100%;
+     
+}
+.dropdown  ul li {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border:1px solid black;
+  
+}
+.dropdown ul li a {
+  margin: 0;
+  padding:5px 50px;
+  text-decoration: none;
+  color:blue;
+}
+.dropdown  ul li a:hover{
+	background:black;
+    display:block;
+	color:white;
+}
+.dropdown  li:hover ul{
+	display:block;
+}
+
+.banner img{
+	margin-bottom:25px;
+	max-width:100%
+
+}
+
+.button{
+	text-align:center;
+	max-width:100%
+}
+.ebook img{
+	margin-bottom:50px;
+	max-width:100%
+}
+.book{
+	margin-bottom:50px;
+	max-width:100%
+}
+.bookbtn{
+	text-align:center;
+	margin-left:-100px;
+	margin-top:90px;
+}
+.link{
+	margin-bottom:50px;
+	max-width:100%
+	
+}
+.link h3{
+	text-align:center;
+}
+.link img{
+	width:100px;
+	margin-left:30px;
+	text-align:center;
+}
+.link li{
+	margin-left:50px;	
+}
+.fmenu{
+	max-width:100%
+}
+.fmenu1 ul{
+	margin:0;
+	padding:0;
+	background:black;
+}
+.fmenu1 li{
+	text-decoration:none;
+	display:inline-block;
+	padding:10px;
+	color:white;
+	
+	
+}
+.fmenu1 a{
+	margin-left:20px;
+	color:white;
+}
+.signup{
+	padding:50px;
+	text-align:center;
+	max-width:100%
+}
+
+
+
+.mission{
+	padding:50px;
+	max-width:100%
+}
+.mission h1{
+	text-align:center;
+	margin-bottom:30px;
+}
+.mission p{
+	margin-left:80px;
+	margin-top:10px;
+}
+.collection{
+	padding:60px;
+	max-width:100%
+}
+.program h1{
+	margin-left: 100px;
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
+.event h1{
+	text-align: center;
+	background: blue;
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-bottom: 50px;
+}
+
+
+.help{
+	padding: 10px;
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-top: 50px;
+}
+
+
+.locker{
+	margin-left: 80px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-right: 80px;
+}
+.locker h2{
+	font-weight: bold;
+}
+.locker h3{
+	font-weight: bold;
+}
+.locker img{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.search{
+	margin-right: 130px;
+	margin-left: 130px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.search h1{
+	text-align: center;
+	font-weight: bold;
+}
+.search p{
+	text-align: center;
+}
+
+.email{
+	font-size: 20px;
+}
+.pass{
+	font-size: 20px;
+}
+
+
+
+.program{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.program li{
+	display: inline-grid;
+	padding: 3px;
+	font-size: 18px;
+}
+.program h1{
+	font-weight: bold;
+	margin-left: -25px;
+}
